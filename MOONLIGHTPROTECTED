@@ -36,11 +36,11 @@ local button = sector.element('Button', 'Silent aim', nil, function()loadstring(
 
 end)
 
-local button = sector.element('Button', 'Button', nil, function()
+local button = sector.element('Button', 'Azure mobilw', nil, function()string(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/waypoint-x-v222/main
 
 end)
 
-local button = sector.element('Button', 'Button', nil, function()
+local button = sector.element('Button', 'c-tool', nil, function()loadstring(game:HttpGet("https://pastebin.com/raw/NdKvR1kg", true))()
 
 end)
 
@@ -81,7 +81,7 @@ local button = sector.element('Button', 'Button', nil, function()
 end)
 
 local toggle = sector.element('Toggle', 'Toggle', false, function(v)
-   print(v.Toggle) -- :nerd:
+   print(v.Toggle) -- :loadstring(game:HttpGet('https://raw.githubusercontent.com/wenny69420/KirbswareScripts/main/MobileV3'))():
 end)
 toggle:add_color({Color = Color3.fromRGB(204, 204, 255)}, nil, function(v)
    print(v.Color)    
