@@ -32,7 +32,7 @@ local button = sector.element('Button', 'OpBox', nil, function()loadstring(game:
 
 end)
 
-local button = sector.element('Button', 'Button', nil, function()
+local button = sector.element('Button', 'Silent aim', nil, function()loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/WAYPOINTV2/main/wiwi",true))()
 
 end)
 
